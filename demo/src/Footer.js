@@ -5,11 +5,11 @@ class Footer extends Component {
     return (
       <div className="demo-footer">
         <div>
-          <div>Copyright {new Date().getFullYear()}. King of the Stack</div>
+          <div>Copyright {new Date().getFullYear()}.Uruj Chat</div>
           <div>All rights reserved</div>
         </div>
         <div>
-          <div>Made with Canadian Maple Syrup</div>
+          <div>Made with love in India</div>
         </div>
       </div>
     );

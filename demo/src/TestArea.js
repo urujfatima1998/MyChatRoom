@@ -5,9 +5,9 @@ class TestArea extends Component {
     return (
       <div className="demo-test-area--wrapper">
         <div className="demo-test-area--title">
-          <div className="demo-test-area--title-main">react-chat-window demo</div>
+          <div className="demo-test-area--title-main">A lot can happen over a chat !</div>
           <div className="demo-test-area--title-sub">
-            <a href="https://kingofthestack.com">made by King of the Stack</a>
+            
           </div>
         </div>
         <form className="demo-test-area" onSubmit={(e)=> {
@@ -15,20 +15,16 @@ class TestArea extends Component {
           this.props.onMessage(this.textArea.value);
           this.textArea.value = '';
         }}>
-          <div className="demo-test-area--preamble">Test the chat window by sending a message:</div>
+          <div className="demo-test-area--preamble"> Chat by sending a message .
+          Message will be refelected to bottom right corner icon.</div>
           <textarea
             ref={(e) => { this.textArea = e; }}
             className="demo-test-area--text"
-            placeholder="Write a test message...."
+            placeholder="Write a message...."
           />
           <button className="demo-test-area--button"> Send Message! </button>
         </form>
-        <p className="demo-test-area--info">
-          react-chat-window is a chat window that allows you to build and add custom live chat to your sites. It includes only the react chat widget. There is no backend, and no communication system baked in.
-          <br />
-          <br/>
-          Usage instructions for react-chat-window are <a href="https://github.com/kingofthestack/react-chat-window">on Github</a>.
-        </p>
+        
       </div>
     );
   }
