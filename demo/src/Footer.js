@@ -9,7 +9,7 @@ class Footer extends Component {
           <div>All rights reserved</div>
         </div>
         <div>
-          <div>Made with love in India</div>
+          <div>Made with love in India :) </div>
         </div>
       </div>
     );
